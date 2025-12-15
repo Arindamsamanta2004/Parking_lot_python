@@ -1,1 +1,1 @@
-# Minimal requirements; stdlib only, kept empty for now
+pytest>=7.0
