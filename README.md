@@ -2,6 +2,26 @@
 
 Simple CLI application to manage a parking lot: create a lot, park vehicles, free slots, and query status.
 
+## Project Structure
+
+```
+Parking_Lot/
+├─ src/
+│  ├─ main.py
+│  └─ parking_lot/
+│     ├─ __init__.py
+│     ├─ parking_lot.py
+│     ├─ models/
+│     │  ├─ __init__.py
+│     │  ├─ vehicle.py
+│     │  └─ ticket.py
+│     └─ services/
+│        └─ time_service.py
+├─ .gitignore
+├─ README.md
+└─ requirements.txt
+```
+
 ## Setup
 
 - Prerequisites: Python 3.10+
