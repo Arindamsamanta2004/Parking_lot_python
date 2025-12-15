@@ -73,3 +73,20 @@ Slot No.    Registration No    Color
 
 - Vehicle model uses `registration_number`, `color`, and `type` (enum).
 - If you use VS Code, set the interpreter to `.venv/bin/python` for best linting and run support.
+
+## Tests
+
+Prerequisites: activate the virtual environment and install requirements.
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Run all tests with pytest:
+
+```bash
+pytest -q
+```
+
+Config: `pytest.ini` sets `pythonpath = src` so tests can import `parking_lot.*` modules.
